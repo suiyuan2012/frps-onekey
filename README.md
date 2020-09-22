@@ -1,4 +1,6 @@
-
+关闭防火墙
+systemctl stop firewalld.service
+systemctl disable firewalld.service
 Frps服务端一键配置脚本，Frp最新版本：0.34.0
 ===========
 
